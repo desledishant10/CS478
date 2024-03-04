@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PhoneAppDemo</string>
+    <string name="welcome_message">Welcome to the PhoneAppDemo!</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="dial">Dial</string>
+    <string name="message">Message</string>
+    <string name="default_message_body">Hello [Dishant Desle]</string>
+</resources>
