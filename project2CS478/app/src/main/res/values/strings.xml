@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Movie Info</string>
+
+    <!-- Main Activity -->
+    <string name="main_activity_title">Movies List</string>
+
+    <!-- Movie Details Activity -->
+    <string name="movie_detail_activity_title">Movie Details</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_poster_content_description">Movie Poster</string>
+
+    <!-- Wiki Activity -->
+    <string name="wiki_activity_title">Wikipedia</string>
+    <string name="wiki_loading_error">Failed to load Wikipedia page</string>
+
+    <!-- Streaming Services Activity -->
+    <string name="streaming_services_activity_title">Available Streaming Services</string>
+    <string name="select_streaming_service">Select a streaming service to watch the movie</string>
+
+    <!-- Poster Activity -->
+    <string name="poster_image">Movie Poster</string>
+
+    <!-- Errors and Messages -->
+    <string name="error_message">An error occurred</string>
+    <string name="loading">Loading...</string>
+    <string name="no_internet_connection">No internet connection available</string>
+
+    <!-- Action and Navigation -->
+    <string name="action_settings">Settings</string>
+    <string name="navigate_back">Back</string>
+    <string name="visit_website">Visit Website</string>
+
+    <!-- Content Descriptions -->
+    <string name="image_content_description">Image of the movie</string>
+    <string name="back_button_description">Back Button</string>
+
+    <!-- Placeholder Text -->
+    <string name="placeholder_movie_title">Movie Title</string>
+    <string name="placeholder_actor_names">Actor Names</string>
+
+    <!-- Streaming Services Names (Example) -->
+    <string name="netflix">Netflix</string>
+    <string name="amazon_prime_video">Amazon Prime Video</string>
+    <string name="hulu">Hulu</string>
+    <string name="disney_plus">Disney+</string>
+</resources>
