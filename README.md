@@ -1,22 +1,34 @@
 Android Movie Display App
-Software Developer, [February, 2024]
 
-Project Overview: Designed and developed a feature-rich Android application for displaying detailed information about movies, utilizing 
-Android Studio and targeting Android 14 (API level 34). The app showcases movies in a list, displaying thumbnails, titles, and actor names, with 
-support for both portrait and landscape modes on a Pixel 5 device.
 
-Technical Highlights:
+Project Overview
+The Android Movie Display App is a feature-rich application designed to showcase detailed information about movies. Developed using Android Studio and targeting Android 14 (API level 34), this app presents a user-friendly interface that displays movies in a list format, including thumbnails, titles, and actors' names. It supports both portrait and landscape modes on Pixel 5 devices and incorporates efficient image loading, dynamic user interactions, and optimized performance for an engaging user experience.
 
-1.  Custom UI Design: Implemented a RecyclerView for efficiently listing movies, customizing each list item to include a movie poster thumbnail, title, and actors. Applied bold and italic text styles for visual differentiation.
 
-2.  Dynamic Data Handling: Developed a robust model to represent movie data, including URLs for thumbnails and posters, implemented efficient image loading with aspect ratio preservation using Glide.
+Features
+1.  Movie List Display: Movies are displayed in a list with thumbnails, titles, and a comma-separated list of actors.
+2.  Efficient Image Loading: Utilizes Glide for efficient image loading and caching, preserving the aspect ratio of movie posters.
+3.  Interactive Elements: Supports short and long clicks on movie items to view detailed information, official webpages, and Wikipedia entries.
+4.  Streaming Services List: Provides a list of available streaming services for each movie.
+5.  Optimized for Pixel 5: Designed and tested specifically for optimal performance on Pixel 5 devices in both portrait and landscape orientations.
 
-3.  User Interaction: Engineered the app to handle user interactions such as short and long clicks on movie items, launching detailed views, official movie webpages, Wikipedia content, and streaming service options.
 
-4.  Performance Optimization: Ensured optimal memory usage by managing large image loading and caching strategies, preventing memory leaks and ensuring smooth user experiences.
+Getting Started
+-  Prerequisites
+-  Android Studio
+-  Android SDK (API level 34)
+-  JDK 8 or later
 
-5.  Navigation and Context Menus: Implemented context menus for additional movie-related actions and used Intents for navigation between activities, enhancing user engagement.
 
-6.  Build System: Configured the project with Groovy DSL in Gradle for managing dependencies and build settings, ensuring a streamlined development process.
+Usage
+-  Navigate through the app to explore various movies listed. Perform short clicks to access the official movie webpage or long clicks to view more options such as the full poster, Wikipedia page, and streaming platforms.
 
-7.  Skills and Technologies: Android SDK, Android Studio, Java, Groovy DSL, RecyclerView, Glide, Intent, Context Menus, Memory Management, UI/UX Design.
+
+Contributing
+-  Contributions to enhance the Android Movie Display App are welcome. Please fork the repository and submit a pull request with your proposed changes.
+
+
+Acknowledgments
+-  Glide for efficient image loading
+-  Android Studio and the Android SDK for development tools
+-  Pixel 5 AVD for testing and optimization
