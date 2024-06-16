@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gopherhunting">
+
+    <uses-permission android:name="com.example.gopherhunting.PERMISSION_GAME_PLAYER" android:permissionGroup="android.permission-group.LOCATION"/>
+
+    <permission
+        android:name="com.example.gopherhunting.PERMISSION_GAME_PLAYER"
+        android:protectionLevel="dangerous"
+        android:description="@string/per_desc_game_player" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GameActivity" android:exported="true" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="text_primary">#000000</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gridBackground">#E0E0E0</color>
+    <color name="grid_item_default">#D3D3D3</color>
+    <color name="grid_item_miss">#FFCDD2</color>
+    <color name="grid_item_near_miss">#FFF9C4</color>
+    <color name="grid_hit">#C8E6C9</color> <!-- Make sure this line is added -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="button_color">#DDDDDD</color>
+    <color name="button_pressed">#BBBBBB</color>
+    <color name="button_focused">#CCCCCC</color>
+    <color name="grid_default">#222222</color>
+    <color name="grid_near_miss">#FFEB3B</color>
+    <color name="grid_close_guess">#FFC107</color>
+    <color name="text_secondary">#BDBDBD</color>
+    <color name="purple_200">#BB86FC</color>
+</resources>

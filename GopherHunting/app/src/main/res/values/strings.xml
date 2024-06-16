@@ -1,0 +1,43 @@
+<resources>
+    <!-- Application name -->
+    <string name="app_name">Gopher Hunting</string>
+
+    <!-- Main Activity strings -->
+    <string name="welcome_message">Welcome to Gopher Hunting!</string>
+    <string name="start_game">Start Game</string>
+    <string name="stop_game">Stop Game</string>
+
+    <!-- Game Activity strings -->
+    <string name="game_status_waiting">Waiting to start...</string>
+    <string name="game_status_player_turn">Player %1$d\'s Turn</string>
+    <string name="game_status_player_win">Player %1$d Wins!</string>
+    <string name="game_status_stopped">Game Stopped</string>
+
+    <!-- Error and Info Messages -->
+    <string name="error_permission_denied">Permission Denied. Cannot start the game.</string>
+    <string name="error_game_stopped">The game has been stopped.</string>
+
+    <!-- Labels for GridView -->
+    <string name="label_player_one_grid">Player 1\'s Grid</string>
+    <string name="label_player_two_grid">Player 2\'s Grid</string>
+
+    <!-- Button labels -->
+    <string name="label_start_button">Start</string>
+    <string name="label_stop_button">Stop</string>
+
+    <!-- Permissions and warnings -->
+    <string name="permission_rationale">This game requires additional permissions to function correctly.</string>
+    <string name="exit_confirmation">Are you sure you want to exit?</string>
+
+    <!-- Tutorial and tips -->
+    <string name="tutorial_introduction">Learn how to play Gopher Hunting!</string>
+    <string name="tip_near_miss">A near miss means you are very close!</string>
+    <string name="tip_miss">Keep trying, you\'ll find the gopher soon!</string>
+
+    <!-- Notifications -->
+    <string name="notification_game_paused">Game Paused</string>
+    <string name="notification_game_resumed">Game Resumed</string>
+
+    <!-- Permission description -->
+    <string name="per_desc_game_player">Permission to play Gopher Hunting game</string>
+</resources>
