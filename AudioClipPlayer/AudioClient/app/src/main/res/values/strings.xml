@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AudioClient</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="play_clip">Play Clip</string>
+    <string name="pause_clip">Pause Clip</string>
+    <string name="resume_clip">Resume Clip</string>
+    <string name="stop_clip">Stop Clip</string>
+    <string name="service_status">Service Status</string>
+</resources>

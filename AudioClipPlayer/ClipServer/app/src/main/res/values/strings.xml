@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ClipServer</string>
+    <string name="clip_server_notification_channel">Clip Server Notification Channel</string>
+</resources>
